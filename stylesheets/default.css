@@ -1,0 +1,196 @@
+body {
+	margin: 25px 0px 0px 0px;
+	padding: 0px;
+	background: #1C1C1C;
+}
+
+form {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0px;
+}
+
+body, th, td, input, textarea, select {
+	font-family: Georgia, Arial;
+	font-size: 13px;
+	color: #5D646C;
+}
+
+p, blockquote, ul, ol, dl {
+	margin-top: 0px;
+	margin-bottom: 1em;
+	text-align: left;
+}
+
+p {
+	line-height: 180%;
+}
+
+
+ul {
+	margin-left: 0px;
+	padding-left: 0px;
+	list-style: none;
+	line-height: 20px;
+}
+
+#showFrame {
+	height: 530px;
+	width:  553px;
+	background-color: #FFFFFF;
+    align: justify;
+}
+
+.list1 a {
+	font-size: 10px;
+	color: ##6D2E0F;
+}
+
+.plain {
+background-color:white;
+}
+
+a {
+	color: #0A63F9;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.align-justify { text-align: justify; }
+.align-right { text-align: right; }
+
+img { border: none; }
+
+.img1 {
+	float: left;
+	margin: 3px 15px 0px 0px;
+}
+
+.img2 {
+	float: right;
+	margin: 3px 0px 0px 15px;
+}
+
+hr { display: none; }
+
+.hr1 {
+	height: 1px;
+}
+
+.container {
+	width: 1000px;
+	margin: 0px auto;
+}
+
+#header {
+	height: 78px;
+}
+
+#logo {
+	width: 360px;
+	height: 71px;
+	margin: 0px;
+	padding: 0px 0px 0px 10px;
+	background: url(images/img01.jpg) no-repeat left top;
+}
+
+#logo h3 , #logo p {
+	margin: 0px;
+	padding: 0px;
+	color: #FFFFFF;
+}
+
+#logo h3 {
+	font-family: Georgia, Arial;
+	font-size: 14px;
+    color: black;
+}
+
+#logo p {
+	padding: 0px 0px 0px 3px;
+	font-size: 10px;
+}
+
+#logo a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#menu {
+	width: 568px;
+	height: 71px;
+}
+
+#menu a {
+	display: block;
+	width: 180px;
+	height: 31px;
+	margin: 0px;
+	padding: 40px 0px 0px 0px;
+	background: url(images/img03.jpg) no-repeat left top;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+	background: url(images/img02.jpg) no-repeat left top;
+}
+
+#menu .active {
+	background: url(images/img02.jpg) no-repeat left top;
+}
+
+
+#page {
+	background: #FFFFFF url(images/img04.jpg) no-repeat left top;
+	padding: 20px;
+}
+
+#content {
+	width: 640px;
+}
+
+#content h2 {
+	letter-spacing: -1px;
+	font-size: 30px;
+	font-weight: normal;
+	color: #78AA00;
+}
+
+#sidebar {
+	width: 250px;
+}
+
+#sidebar h2 {
+    font-weight: normal,
+	font-size: 80px;
+    font-family: Gothic;
+	color: black;
+    text-align: left;
+    padding: 10px;
+}
+
+#footer a {
+	color: #0A63F9;
+}
+
+.divider {
+	background: url(images/img06.gif) repeat-x left top;
+}
+
+.style1 ul {
+}
+
+.style1 li {
+	padding: 4px 0px;
+}
